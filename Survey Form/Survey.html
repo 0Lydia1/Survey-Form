@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="survey.css">
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <div>
+  <h1 id="title"> "Nostalgia" music festival survey form </h1>
+  
+  <p id="description"> After the completion of the festival, we would love to know your opinion. <br> Thanks a lot for helping us to improve.</p>
+  </div>
+  
+  <form id="survey-form">
+    <br>
+    <label for="name" id="name-label"> Name </label>
+  <input 
+         id="name" 
+         placeholder="Enter your name" 
+         type="text" required> <br>
+    
+    <br>
+    <label for="email" id="email-label"> Email </label>
+  <input 
+         id="email" 
+         type="email"
+         placeholder="Enter your Email" 
+         type="text" required> <br>
+    
+      <br>
+  <label for="age" id="number-label"> Age (optional) </label>
+    <input 
+         id="number"
+         type="number"
+         min="0"
+         max="150"
+         placeholder="Age" required> 
+    
+    
+    <p>What musical group has been your favorite?<p>
+    
+    <select id="dropdown">
+      <option> Nirvana Tribute Band </option>
+      <option> Led Zeppelin Tribute Band</option>
+      <option> Pink Floyd Tribute Band</option>
+      <option> The Beatles Tribute Band</option>
+    </select> <br>
+    
+     <p>Would you recommend this music festival?<p>
+    
+    <label for="Definitely">
+    <input 
+        id="Definitely" 
+        type="radio" 
+        name="form-radio" 
+        value="Definitely"> 
+        Definitely
+    </label> <br>
+    
+    <label for="Maybe">
+    <input 
+        id="Maybe" 
+        type="radio" 
+        name="form-radio" 
+        value="Maybe"> 
+    Maybe
+    </label> <br>
+    
+    <label for="Not sure">
+    <input 
+        id="Not sure" 
+        type="radio" 
+        name="form-radio" 
+        value="Not sure"> 
+        Not sure
+    </label>
+    
+     <p>What things do you like about the festival?<p>
+    
+     <label for="Listen to live music">
+    <input 
+           id="Listen to live music" 
+           value="Listen to live music"
+           type="checkbox" 
+           name="form-checkbox"> 
+       Listen to live music
+    </label> <br>
+   
+    <label for="Catering service">
+    <input 
+           id="Catering service" 
+           value="Catering service" 
+           type="checkbox" 
+           name="form-checkbox"> 
+      Catering service
+    </label> <br>
+    
+    <label for="The venue">
+    <input 
+           id="The venue" 
+           value="The venue" 
+           type="checkbox" 
+           name="form-checkbox"> 
+      The venue
+    </label> <br>
+    
+    <label for="Musical groups">
+    <input 
+           id="Musical groups" 
+           value="Musical groups" 
+           type="checkbox" 
+           name="form-checkbox"> 
+      Musical groups
+    </label> <br>
+    
+     <label for="Music genre">
+    <input 
+           id="Music genre" 
+           value="Music genre" 
+           type="checkbox" 
+           name="form-checkbox"> 
+      Music genre
+    </label> <br>
+    
+    <label for="Date chosen">
+    <input 
+           id="Date chosen" 
+           value="Date chosen" 
+           type="checkbox" 
+           name="form-checkbox"> 
+      Date chosen
+    </label> <br>
+    
+     <label for="Decoration of the place">
+    <input 
+           id="Decoration of the place" 
+           value="Decoration of the place" 
+           type="checkbox" 
+           name="form-checkbox"> 
+       Decoration of the place
+    </label> <br>
+    <p> Any comments or suggestions?</p>
+    <textarea
+     placeholder="Write your comment or suggestion here..."
+    ></textarea> 
+    
+    <button id="submit" type="submit"> <strong>Submit</strong> </button>
+  </form>
+  </body>
+</html>

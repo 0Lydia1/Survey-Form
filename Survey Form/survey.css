@@ -1,0 +1,59 @@
+html {
+    background-image: url("https://images.unsplash.com/photo-1508854710579-5cecc3a9ff17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: 1600px;
+  }
+  
+  #title {
+    text-align: center;
+    color: #b58463;
+  }
+  
+  #description {
+    text-align: center;
+    font-style: italic;
+    color: #997b66;
+  }
+  
+  form {
+   background-color: #f0efeb;
+   width: 500px;
+   padding: 30px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  
+  #name,
+  #email,
+  #number
+   {
+    display: block;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  #dropdown{
+    display: block;
+    width: 100%;
+    padding: 8px 8px;
+    margin: 15px 0px 0px 0px;
+  }
+  
+  textarea {
+    display: block;
+    padding: 30px 0px 20px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  } 
+  
+  #button {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    background-color: #b58463;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+  }
+  
+  ::placeholder {
+    padding-left: 10px;
+  }
